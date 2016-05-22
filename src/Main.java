@@ -13,6 +13,10 @@ public class Main {
 		for (int x = 0; x < 5; x++) {
 			System.out.print("Please, enter an integer: ");
 			number = input.nextInt();
+			if (x==0){
+				max = number;
+				min = number;
+			}
 
 			if (number > max) {
 				max = number;
